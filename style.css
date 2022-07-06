@@ -20,6 +20,7 @@ body {
     text-decoration: none;
     font-weight: 500;
     font-size: 20px;
+    display: inline-block;
 }
 
 .title-area {
@@ -74,7 +75,7 @@ body {
     font-size: 18px;
     line-height: 28px;
     font-weight: 400;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 
@@ -146,7 +147,7 @@ body {
     display: flex;
     justify-content: center;
     column-gap: 20px;
-    padding: 20px 0 50px;
+    padding: 20px 0;
 }
 
 .plan img {
@@ -220,6 +221,7 @@ footer {
     text-align: center;
     padding: 40px 0;
 }
+
 footer h3 {
     font-family: 'Lobster', cursive;
     font-size: 36px;
@@ -229,13 +231,45 @@ footer h3 {
 }
 
 
-#donors{
+#donors {
     background-color: #f9fafb;
 }
+
 .donors {
     display: flex;
     justify-content: center;
     column-gap: 10%;
     padding: 55px 0 80px;
+}
+
+
+
+.donate-showcase {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 80px;
+    margin-bottom: 80px;
+}
+
+.half-width {
+    width: 500px;
+}
+
+.showcase-image img {
+    max-width: 100%;
+}
+
+.showcase-content h3 {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.showcase-content p {
+    font-weight: 400;
+    font-size: 18px;
+    color: #707070;
+    margin-bottom: 15px;
 }
 
