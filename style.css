@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+
+
+.section-padding {
+    padding: 120px 0 10px
+}
+
+.btn-donate {
+    padding: 15px 20px;
+    background: #FF5959;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.title-area {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.title-max {
+    max-width: 680px;
+}
+
+.title-max h2 {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.title-max p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #707070;
+}
+
+
+.hero {
+    background-image: url(./assets/donation-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+.hero-content {
+    max-width: 825px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.hero-content h1 {
+    font-weight: 700;
+    font-size: 65px;
+    margin-bottom: 25px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+
+.donation-card-area {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 50px;
+    column-gap: 12px;
+}
+
+.donation-card-area #active {
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+}
+
+.donation-card-area #active p {
+    color: #FF5959;
+}
+
+.amount-card {
+    width: 135px;
+    height: 125px;
+    text-align: center;
+    background: #FAFAFA;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.amount-card p {
+    font-weight: 700;
+    font-size: 30px;
+    color: #707070;
+}
+
+.donation-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.donation-input input {
+    width: 700px;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 25px;
+    border: none;
+    border-bottom: 1px solid #DADADA;
+}
+
+.donation-input input::-webkit-input-placeholder {
+    color: #B3B3B3;
+}
+
+.donation-input input[type=text] {
+    padding: 10px;
+
+}
+
+
+.plan {
+    max-width: 300px;
+    border-radius: 5px;
+    padding: 60px 20px 50px;
+}
+
+.plan-card {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    padding: 20px 0 50px;
+}
+
+.plan img {
+    width: 60px;
+    margin-bottom: 25px;
+}
+
+.plan h3 {
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.plan p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #707070;
+}
+
+.plan-card #medicine {
+    background: rgba(79, 157, 166, 0.1);
+}
+
+.plan-card #blood {
+    background: rgba(255, 89, 89, 0.1);
+}
+
+.plan-card #social {
+    background: rgb(255 244 214);
+}
+
+
+.update-box {
+    width: 720px;
+    background: #FFF4D6;
+    padding: 75px;
+    display: flex;
+    justify-content: center;
+}
+
+.update-input {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 50px;
+}
+
+.update-box input {
+    border: none;
+    background: #D9D9D9;
+    border-radius: 5px 0px 0px 5px;
+    padding: 15px;
+    width: 250px;
+    font-size: 16px;
+}
+
+.update-box button {
+    border: none;
+    width: 150px;
+    background: #FF5959;
+    border-radius: 0px 5px 5px 0px;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+
+footer {
+    margin-top: 100px;
+    background: #0B0D17;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
+footer h3 {
+    font-family: 'Lobster', cursive;
+    font-size: 36px;
+    font-weight: 400;
+    color: #FF5959;
+    margin-bottom: 20px;
+}
+
+
+#donors{
+    background-color: #f9fafb;
+}
+.donors {
+    display: flex;
+    justify-content: center;
+    column-gap: 10%;
+    padding: 55px 0 80px;
+}
+
